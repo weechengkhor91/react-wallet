@@ -1,6 +1,6 @@
 # Run in docker
 1. Make sure have docker software
-2. Docker build -t react-wallet . 
+2. docker build -t react-wallet . 
 3. docker run -p 5173:5173 react-wallet
 
 # React + TypeScript + Vite
