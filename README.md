@@ -1,3 +1,8 @@
+# Run in docker
+1. Make sure have docker software
+2. Docker build -t react-wallet . 
+3. docker run -p 5173:5173 react-wallet
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
