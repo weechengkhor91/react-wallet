@@ -1,10 +1,9 @@
 
 
 type MyProps = {
-    title?: string,
-    bgimg?: string
+    title?: string
 }
-const PageTitle = ({title, bgimg}:MyProps) => {
+const PageTitle = ({title}:MyProps) => {
     return <>
     
     <section id="sec-page-title" className="py-4 bg-white/50">

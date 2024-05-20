@@ -1,5 +1,5 @@
 
-import { useState, useCallback } from "react";
+import {  useCallback } from "react";
 import { Formik, Form,Field, ErrorMessage } from "formik"
 import { useSelector, useDispatch } from "react-redux";
 import * as Yup from 'yup';
@@ -30,7 +30,7 @@ const Login = () => {
             .matches(/[!@#$%^&*(),.?":{}|<>]/,"Password must contain one symbol").required("Password is required")
     })
 
-    const handleSubmit = useCallback(async (values: any, {resetForm}:any) =>{
+    const handleSubmit = useCallback(async (values: any) =>{
 
       const response = await dispatch(actionSendRequest(values));
       //response return true

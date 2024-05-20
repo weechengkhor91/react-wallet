@@ -2,7 +2,7 @@ import { useState } from "react";
 import BurgerIcon from "./icons/BurgerIcon";
 import CloseIcon from "./icons/CloseIcon";
 import classes from './Offcanvas.module.css';
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 type MenuItem = {
     id: string,

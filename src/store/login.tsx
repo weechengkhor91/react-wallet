@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { actionNotification } from "./notification";
 import { Dispatch } from "redux";
-import {  signInWithEmailAndPassword, updateProfile  } from "firebase/auth";
+import {  signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase.ts";
 const initialLoginState = {
     isLoggedIn:false,
